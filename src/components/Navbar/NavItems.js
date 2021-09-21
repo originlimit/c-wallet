@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const Nav = styled.nav`
-    height: 3rem;
+    height: 4rem;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
@@ -14,7 +14,7 @@ export const NavContainer = styled.div`
     background: rgba(0, 0, 0, .95);
     display: flex;
     justify-content: space-between;
-    height: 3rem;
+    height: 4rem;
     width: 100%;
 `;
 
@@ -36,7 +36,7 @@ export const NavItemContainer = styled.div`
 
 export const NavItems = styled.div`
     display: flex;
-
+    align-items: center;
     @media(max-width: 47rem){
         display: none;
     }
@@ -49,8 +49,8 @@ export const NavItem = styled(Link)`
 `;
 
 export const NavButton = styled(Link)`
-    background: #75e1b7;
-    border-radius: 1rem;
+    background: #1cce8a;
+    border-radius: .25rem;
     color: #000000;
     padding: .30rem .75rem;
     margin: .5rem 3rem .5rem .75rem;
