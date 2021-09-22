@@ -20,7 +20,7 @@ export const SidebarClose = styled.button`
     padding: .50rem 1.85rem 0rem 0rem;
     cursor: pointer;
     font-size: 1.75rem;
-    height: 3rem;
+    height: 4rem;
     background: transparent;
     border: none;
     color: #ffffff;
@@ -35,7 +35,7 @@ export const SidebarItems = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 85%;
+    height: 80%;
     justify-content: space-evenly;
     padding: auto 2rem;
     padding-bottom: 4rem;
