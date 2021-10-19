@@ -2,11 +2,11 @@ import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import {SidebarContainer, SidebarClose, SidebarItems, SidebarItem, SidebarIcon, SidebarFooter, FooterItem} from './SidebarItems';
 
-function Sidebar() {
+function Sidebar({toggle}) {
     return (
         <SidebarContainer>
             <SidebarIcon>
-                <SidebarClose>
+                <SidebarClose onClick={toggle}>
                     <FaTimes/>
                 </SidebarClose>
             </SidebarIcon>

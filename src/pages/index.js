@@ -10,7 +10,7 @@ function Home() {
     return (
         <>
             <Navbar/>
-            <Sidebar/>
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
         </>
     )
 }

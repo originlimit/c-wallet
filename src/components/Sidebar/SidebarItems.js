@@ -8,7 +8,7 @@ export const SidebarContainer = styled.div`
     width: 100%;
     height: 100%;
     top: 0;
-    background: rgba(0, 0, 0, .95);
+    background: rgba(0, 0, 0, .97);
 
     @media(max-width: 47rem){
         display: block;
