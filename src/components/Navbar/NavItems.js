@@ -25,6 +25,11 @@ export const NavLogo = styled(Link)`
     font-size: 1.5rem;
     margin: auto 3rem;
 
+    &:hover{
+        transition: 0.3s ease-in-out;
+        color: #1cce8a;
+    }
+
     @media(max-width: 47rem){
         margin: auto 2rem;
     }
@@ -46,6 +51,11 @@ export const NavItem = styled(Link)`
     padding: .75rem;
     color: #ffffff;
     font-weight: bold;
+
+    &:hover{
+        transition: 0.3s ease-in-out;
+        color: #1cce8a;
+    }
 `;
 
 export const NavButton = styled(Link)`

@@ -1,15 +1,14 @@
-import React, {useState} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {Nav, NavContainer, NavLogo, NavItemContainer, NavItems, NavItem, NavButton, NavMenu} from './NavItems';
 
-function Navbar(){
+function Navbar({toggle}){
     return (
         <>
             <Nav>
                 <NavContainer>
                     <NavLogo to='/'>C-Wallet</NavLogo>
                     <NavItemContainer>
-                        <NavMenu>
+                        <NavMenu onClick={toggle}>
                             <FaBars/>
                         </NavMenu>
                         <NavItems>

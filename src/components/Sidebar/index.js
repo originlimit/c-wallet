@@ -2,9 +2,9 @@ import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import {SidebarContainer, SidebarClose, SidebarItems, SidebarItem, SidebarIcon, SidebarFooter, FooterItem} from './SidebarItems';
 
-function Sidebar({toggle}) {
+function Sidebar({isOpen, toggle}) {
     return (
-        <SidebarContainer>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <SidebarIcon>
                 <SidebarClose onClick={toggle}>
                     <FaTimes/>

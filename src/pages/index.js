@@ -9,7 +9,7 @@ function Home() {
 
     return (
         <>
-            <Navbar/>
+            <Navbar toggle={toggle}/>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
         </>
     )

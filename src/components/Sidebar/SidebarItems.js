@@ -2,17 +2,13 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const SidebarContainer = styled.div`
-    display: none;
+    display: ${({isOpen}) => (isOpen ? 'block' : 'none')};
     position: fixed;
     z-index: 99;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
     background: rgba(0, 0, 0, .97);
-
-    @media(max-width: 47rem){
-        display: block;
-    }
 `;
 
 export const SidebarClose = styled.button`
@@ -45,6 +41,11 @@ export const SidebarItem = styled(Link)`
     font-size: 1.5rem;
     color: #ffffff;
     font-weight: bold;
+
+    &:hover {
+        color: #1cce8a;
+        transition: 0.3s ease-in-out;
+    }
 `;
 
 export const SidebarFooter = styled.div`
