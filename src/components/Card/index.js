@@ -5,9 +5,7 @@ function Card(props) {
     return (
         <>
             <CardContainer>
-                <CardPicture>
-
-                </CardPicture>
+                <CardPicture src={props.source} alt='image'/>
                 <CardInfo>
                     <CardTitle>{props.title}</CardTitle>
                     <CardDesc>{props.information}</CardDesc>

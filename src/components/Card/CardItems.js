@@ -9,7 +9,7 @@ export const CardInfo = styled.div`
     background: black;
     display: flex;
 `
-export const CardPicture = styled.image`
+export const CardPicture = styled.img`
     background: red;
 `
 
