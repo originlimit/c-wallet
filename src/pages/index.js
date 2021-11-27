@@ -12,18 +12,20 @@ function Home() {
 
     const toggle = () => {setIsOpen(!isOpen)};
 
+    //cardData is an array of objects containing all the info the Card component will use
     const cardData = [
-    { title: 'this is a title 1', information: 'this is a description 1', source: Sync },
-    { title: 'this is a title 2', information: 'this is a description 2', source: Notifs },
-    { title: 'this is a title 3', information: 'this is a description 3', source: Rev },
+    { title: 'Cross Platform Sync', information: 'With our apps, you get cross-platform support and info sync on every device — all hassle-free!', source: Sync, buttonTxt:'Learn More' },
+    { title: 'Reliable Notifications', information: 'Get reliable security notifications and updates so you don\'t miss out on anything.', source: Notifs, buttonTxt:'Learn More' },
+    { title: 'Holdings Report', information: 'We offer free holdings reports! We\'ve got your back on monitoring for all your ups and downs.', source: Rev, buttonTxt:'Learn More' },
     ];
 
+    //.map passes each array element's object info to a new object named "card" to display it in our Card component
     return (
         <>
             <Navbar toggle={toggle}/>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Hero/>
-            {cardData.map((card) => <Card title={card.title} information={card.information} source={card.source}/>)}
+            {cardData.map((card) => <Card title={card.title} information={card.information} source={card.source} buttonTxt={card.buttonTxt}/>)}
         </>
     )
 }

@@ -1,14 +1,18 @@
 import React from 'react'
-import {CardContainer, CardPicture, CardInfo, CardTitle, CardDesc} from './CardItems'
+import {CardContainer, CardPicWrapper, CardPicture, CardInfo, CardTitle, CardDesc} from './CardItems'
+import {Button} from '../Button/button';
 
 function Card(props) {
     return (
         <>
             <CardContainer>
-                <CardPicture src={props.source} alt='image'/>
+                <CardPicWrapper>
+                    <CardPicture src={props.source} alt='image'/>
+                </CardPicWrapper>
                 <CardInfo>
                     <CardTitle>{props.title}</CardTitle>
                     <CardDesc>{props.information}</CardDesc>
+                    <Button to='/signup'>{props.buttonTxt}</Button>
                 </CardInfo>
             </CardContainer>
         </>
