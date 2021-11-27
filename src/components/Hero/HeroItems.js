@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-    background: rgba(0, 0, 0, .95);
     display: flex;
     padding: 0 1rem;
     justify-content: center;
@@ -9,6 +8,17 @@ export const HeroContainer = styled.div`
     height: 36rem;
     position: relative;
     z-index: 1;
+
+    :before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+        z-index: 2;
+    }
 `
 
 export const HeroBG = styled.div`
@@ -22,10 +32,10 @@ export const HeroBG = styled.div`
 export const VideoBG = styled.video`
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
     background: #000000;
 `
-
 export const HeroContent = styled.div`
     z-index: 2;
     display: flex;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
     background: black;
     display: flex;
-    height: 20rem;
+    height: 30rem;
 `
 export const CardInfo = styled.div`
     background: black;
