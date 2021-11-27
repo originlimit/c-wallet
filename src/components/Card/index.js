@@ -1,19 +1,16 @@
 import React from 'react'
 import {CardContainer, CardPicWrapper, CardPicture, CardInfo, CardTitle, CardDesc} from './CardItems'
-import {Button} from '../Button/button';
 
 function Card(props) {
     return (
         <>
             <CardContainer>
-                <CardPicWrapper>
-                    <CardPicture src={props.source} alt='image'/>
-                </CardPicWrapper>
+                { props.cID == 2 ? null : <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> }
                 <CardInfo>
                     <CardTitle>{props.title}</CardTitle>
                     <CardDesc>{props.information}</CardDesc>
-                    <Button to='/signup'>{props.buttonTxt}</Button>
                 </CardInfo>
+                { props.cID == 2 ? <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> : null }
             </CardContainer>
         </>
     )
