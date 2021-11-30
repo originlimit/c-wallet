@@ -4,13 +4,13 @@ import {CardContainer, CardPicWrapper, CardPicture, CardInfo, CardTitle, CardDes
 function Card(props) {
     return (
         <>
-            <CardContainer>
-                { props.cID == 2 ? null : <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> }
+            <CardContainer cID={props.cID}>
+                { props.cID === 2 ? null : <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> }
                 <CardInfo>
                     <CardTitle>{props.title}</CardTitle>
                     <CardDesc>{props.information}</CardDesc>
                 </CardInfo>
-                { props.cID == 2 ? <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> : null }
+                { props.cID === 2 ? <CardPicWrapper><CardPicture src={props.source} alt='image'/></CardPicWrapper> : null }
             </CardContainer>
         </>
     )
