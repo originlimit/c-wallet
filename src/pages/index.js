@@ -6,6 +6,7 @@ import Card from '../components/Card'
 import Sync from '../assets/sync.svg'
 import Notifs from '../assets/notifs.svg'
 import Rev from '../assets/revenue.svg'
+import Footer from '../components/Footer'
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ function Home() {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Hero/>
             {cardData.map((card) => <Card cID={card.cID} title={card.title} information={card.information} source={card.source}/>)}
+            <Footer/>
         </>
     )
 }

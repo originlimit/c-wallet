@@ -32,17 +32,25 @@ export const CardPicWrapper = styled.div`
     justify-content: center;
     align-items: center;
     display: flex;
-    max-width: 50%;
+    width: 50%;
+    max-height: 100%;
+    padding: 2rem;
 
     @media(max-width: 47rem){
-        max-width: 100%;
+        padding: 0rem;
+        width: 100%;
         max-height: 50%;
     }
 `
 
 export const CardPicture = styled.img`
-    max-height: 75%;
-    max-width: 90%;
+    height: 90%;
+    width: 100%;
+
+    @media(max-width: 47rem){
+        max-height: 75%;
+        max-width: 90%;
+    }
 `
 
 export const CardTitle = styled.h1`
