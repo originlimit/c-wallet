@@ -15,7 +15,7 @@ function Home() {
 
     //cardData is an array of objects containing all the info the Card component will use
     const cardData = [
-    { cID: 1, title: 'Cross Platform Sync', information: 'With our apps, you get cross-platform support and info sync on every device — all hassle-free!', source: Sync },
+    { cID: 1, title: 'Cross Platform Sync', information: 'With our apps, you get cross-platform support and info sync on every device — all hassle free!', source: Sync },
     { cID: 2, title: 'Reliable Notifications', information: 'Get reliable security notifications and updates so you don\'t miss out on anything.', source: Notifs },
     { cID: 3, title: 'Holdings Report', information: 'We offer free holdings reports! We\'ve got your back on monitoring for all your ups and downs.', source: Rev },
     ];

@@ -1,10 +1,11 @@
 import React from 'react'
-import {FooterWrapper, LinksWrapper, Links, Trademark} from './FooterItems'
+import {FooterWrapper, LinksWrapper, Links, Trademark, Break} from './FooterItems'
 
 function Footer() {
     return (
         <>
             <FooterWrapper>
+                <Break></Break>
                 <LinksWrapper>
                     <Links>About Us</Links>
                     <Links>Contact Us</Links>

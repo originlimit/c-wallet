@@ -14,7 +14,7 @@ function Sidebar({isOpen, toggle}) {
                 <SidebarItem to='/'>Home</SidebarItem>
                 <SidebarItem to='/'>About</SidebarItem>
                 <SidebarItem to='/'>Contact</SidebarItem>
-                <SidebarItem to='/'>Sign Up</SidebarItem>
+                <SidebarItem to='/signup'>Sign Up</SidebarItem>
             </SidebarItems>
             <SidebarFooter>
                 <FooterItem to='/'>Privacy Policy</FooterItem>
