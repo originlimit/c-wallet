@@ -10,3 +10,4 @@ The product this site is for is non-existent; thus, any product claims therein a
 - Contact page
 - Make "to" links reusable
 - Make a default text layout component
+- Fix "key" prop issues
