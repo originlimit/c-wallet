@@ -5,7 +5,7 @@ function SignUpCard() {
     return (
         <>
             <SignUpBG>
-                <Title>C-Wallet</Title>
+                <Title to='/'>C-Wallet</Title>
                 <SignUpWrapper>
                     <Form>
                         <Name>Name:<br/></Name>
@@ -17,7 +17,7 @@ function SignUpCard() {
                         <TermsWrapper>
                             <Checkbox type='checkbox'/>
                             <Terms>
-                                I accept the <a href='#'>Terms and Conditions</a>
+                                I have read and accept the <a href='#'>Terms and Conditions</a>
                             </Terms>
                         </TermsWrapper>
                     </Form>

@@ -11,9 +11,11 @@ export const SignUpBG = styled.div`
     padding-bottom: 3rem;
 `
 
-export const Title = styled.h1`
+export const Title = styled(Link)`
     color: #ffffff;
     padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
     text-shadow: 1px 3px 6px black;
 `
 
@@ -73,6 +75,7 @@ export const Input = styled.input`
 export const TermsWrapper = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
 `
 
 export const Checkbox = styled.input`
