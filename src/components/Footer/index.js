@@ -7,8 +7,8 @@ function Footer() {
             <FooterWrapper>
                 <Break></Break>
                 <LinksWrapper>
-                    <Links>About Us</Links>
-                    <Links>Contact Us</Links>
+                    <Links to='/'>About Us</Links>
+                    <Links to='/'>Contact Us</Links>
                     <Links to='/terms'>Policies</Links>
                     <Links to='/terms'>Terms</Links>
                 </LinksWrapper>
