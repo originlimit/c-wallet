@@ -6,7 +6,7 @@ export const SignUpBG = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40rem;
+    height: 100vh;
     background: #0c8d5b;
     padding-bottom: 3rem;
 `
@@ -26,11 +26,11 @@ export const SignUpWrapper = styled.div`
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    height: 25rem;
+    height: 30rem;
     width: 25rem;
 
     @media(max-width: 47rem){
-        width: 20rem;
+        width: 90vw;
     }
 `
 
@@ -68,6 +68,23 @@ export const Input = styled.input`
     padding-left: 1rem;
     margin-bottom: .5rem;
     font-size: 1rem;
+`
+
+export const TermsWrapper = styled.div`
+    display: flex;
+    align-items: center;
+`
+
+export const Checkbox = styled.input`
+    color: blue;
+    height: 1rem;
+    width: 1rem;
+    margin: .5rem;
+`
+
+export const Terms = styled.p`
+    color: #ffffff;
+    margin: .25rem;
 `
 
 export const SignUpBtn = styled.button`

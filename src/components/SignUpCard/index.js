@@ -1,5 +1,5 @@
 import React from "react"
-import {SignUpBG, Title, SignUpWrapper, Form, Name, Input, Username, Email, SignUpBtn} from './SignUpItems'
+import {SignUpBG, Title, SignUpWrapper, Form, Name, Input, Username, Email, TermsWrapper, Checkbox, Terms, SignUpBtn} from './SignUpItems'
 
 function SignUpCard() {
     return (
@@ -14,8 +14,14 @@ function SignUpCard() {
                         <Input /><br/>
                         <Email>E-Mail:</Email>
                         <Input /><br/>
+                        <TermsWrapper>
+                            <Checkbox type='checkbox'/>
+                            <Terms>
+                                I accept the <a href='#'>Terms and Conditions</a>
+                            </Terms>
+                        </TermsWrapper>
                     </Form>
-                    <SignUpBtn type="button" onClick={null}>Continue</SignUpBtn>
+                    <SignUpBtn type='button' onClick={null}>Continue</SignUpBtn>
                 </SignUpWrapper>
             </SignUpBG>
         </>
