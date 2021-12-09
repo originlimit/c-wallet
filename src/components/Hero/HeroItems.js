@@ -9,6 +9,10 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 
+    @media(max-width: 47rem){
+        height: 100vh;
+    }
+
     :before {
         content:'';
         position: absolute;
@@ -60,6 +64,7 @@ export const HeroP = styled.div`
     padding: 1rem 0;
 
     @media(max-width: 47rem){
+        margin-bottom: 1rem;
         font-size: 1.2rem;
     }
 `
