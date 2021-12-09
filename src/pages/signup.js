@@ -1,11 +1,14 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import SignUpCard from '../components/SignUpCard';
 
-function SignInPage() {
+function SignUpPage() {
     return (
-        <div>
-            <h1>Sign In Page</h1>
-        </div>
+        <>
+            <SignUpCard />
+            <Footer />
+        </>
     )
 }
 
-export default SignInPage;
+export default SignUpPage;
