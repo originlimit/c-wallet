@@ -17,8 +17,8 @@ function Sidebar({isOpen, toggle}) {
                 <SidebarItem to='/signup'>Sign Up</SidebarItem>
             </SidebarItems>
             <SidebarFooter>
-                <FooterItem to='/'>Privacy Policy</FooterItem>
-                <FooterItem to='/'>Terms & Conditions</FooterItem>
+                <FooterItem to='/terms'>Privacy Policy</FooterItem>
+                <FooterItem to='/terms'>Terms & Conditions</FooterItem>
             </SidebarFooter>
         </SidebarContainer>
     )

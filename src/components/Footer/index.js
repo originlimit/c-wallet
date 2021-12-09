@@ -9,8 +9,8 @@ function Footer() {
                 <LinksWrapper>
                     <Links>About Us</Links>
                     <Links>Contact Us</Links>
-                    <Links>Policies</Links>
-                    <Links>Terms</Links>
+                    <Links to='/terms'>Policies</Links>
+                    <Links to='/terms'>Terms</Links>
                 </LinksWrapper>
                 <Trademark>© 2021 Fictional Company </Trademark>
             </FooterWrapper>

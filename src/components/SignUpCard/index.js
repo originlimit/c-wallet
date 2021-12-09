@@ -16,8 +16,8 @@ function SignUpCard() {
                         <Input /><br/>
                         <TermsWrapper>
                             <Checkbox type='checkbox'/>
-                            <Terms>
-                                I have read and accept the <a href='#'>Terms and Conditions</a>
+                            <Terms to='/terms'>
+                                I have read and accept the Terms and Conditions
                             </Terms>
                         </TermsWrapper>
                     </Form>

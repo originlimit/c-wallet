@@ -85,7 +85,7 @@ export const Checkbox = styled.input`
     margin: .5rem;
 `
 
-export const Terms = styled.p`
+export const Terms = styled(Link)`
     color: #ffffff;
     margin: .25rem;
 `

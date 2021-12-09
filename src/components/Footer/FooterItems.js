@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 
 export const Break = styled.div`
@@ -16,7 +17,7 @@ export const LinksWrapper = styled.div`
     justify-content: center;
 `
 
-export const Links = styled.a`
+export const Links = styled(Link)`
     color: #ffffff;
     font-weight: 600;
     margin: 3rem 2rem;
