@@ -5,11 +5,11 @@ export const CardContainer = styled.div`
     display: flex;
     height: 30rem;
     padding: 2rem;
-    background: ${({cID}) => (cID === 2 ? '#0c734c' : '#000000')};
+    background: ${({kkey}) => (kkey === 2 ? '#0c734c' : '#000000')};
 
     @media(max-width: 47rem){
         padding: 0rem;
-        flex-direction: ${({cID}) => (cID === 2 ? 'column-reverse' : 'column')};
+        flex-direction: ${({kkey}) => (kkey === 2 ? 'column-reverse' : 'column')};
         justify-content: center;
         align content: center;
         height: 35rem;
