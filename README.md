@@ -9,5 +9,6 @@ The product this site is for is non-existent; thus, any product claims therein a
 - About page
 - Contact page
 - Make "to" links reusable
-- Make a default text layout component
-- Fix "key" prop issues
+- Animate hamburger menu
+- Add check us out card
+- Add 'how to: easy' card
