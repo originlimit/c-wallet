@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
     background: black;
     display: flex;
+    justify-content: center;
     height: 30rem;
     padding: 2rem;
     background: ${({kkey}) => (kkey === 2 ? '#0c734c' : '#000000')};
@@ -19,7 +20,7 @@ export const CardInfo = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 50%;
+    max-width: 46rem;
     justify-content: center;
     align-content: center;
     padding: 1rem;
@@ -32,7 +33,7 @@ export const CardPicWrapper = styled.div`
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 50%;
+    width: 46rem;
     max-height: 100%;
     padding: 2rem;
 
