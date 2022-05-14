@@ -9,9 +9,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} exact />
         <Route path='/signup' component={SignUpPage} exact />
         <Route path='/terms' component={TermsPage} exact />
+        <Route path='*' component={Home} replace />
       </Switch>
     </Router>
   );
