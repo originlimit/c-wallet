@@ -12,10 +12,10 @@ function Navbar({toggle}){
                             <FaBars/>
                         </NavMenu>
                         <NavItems>
-                            <NavItem to='home'>Home</NavItem>
-                            <NavItem to='about'>About</NavItem>
-                            <NavItem to='contact'>Contact</NavItem>
-                            <NavButton to='signup'>Sign Up</NavButton>
+                            <NavItem to='/'>Home</NavItem>
+                            <NavItem to='/about'>About</NavItem>
+                            <NavItem to='/contact'>Contact</NavItem>
+                            <NavButton to='/signup'>Sign Up</NavButton>
                         </NavItems>
                     </NavItemContainer>
                 </NavContainer>
