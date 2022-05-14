@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/c-wallet/static/css/main.2dfe2395.chunk.css",
+    "main.js": "/c-wallet/static/js/main.f4781563.chunk.js",
+    "main.js.map": "/c-wallet/static/js/main.f4781563.chunk.js.map",
+    "runtime-main.js": "/c-wallet/static/js/runtime-main.8d917468.js",
+    "runtime-main.js.map": "/c-wallet/static/js/runtime-main.8d917468.js.map",
+    "static/js/2.c320ab5c.chunk.js": "/c-wallet/static/js/2.c320ab5c.chunk.js",
+    "static/js/2.c320ab5c.chunk.js.map": "/c-wallet/static/js/2.c320ab5c.chunk.js.map",
+    "index.html": "/c-wallet/index.html",
+    "static/css/main.2dfe2395.chunk.css.map": "/c-wallet/static/css/main.2dfe2395.chunk.css.map",
+    "static/js/2.c320ab5c.chunk.js.LICENSE.txt": "/c-wallet/static/js/2.c320ab5c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/c-wallet/static/media/Nunito-Regular.e4eb7682.ttf",
+    "static/media/notifs.4affff58.svg": "/c-wallet/static/media/notifs.4affff58.svg",
+    "static/media/revenue.908de717.svg": "/c-wallet/static/media/revenue.908de717.svg",
+    "static/media/sync.83c5d24a.svg": "/c-wallet/static/media/sync.83c5d24a.svg",
+    "static/media/video.b34212c7.mp4": "/c-wallet/static/media/video.b34212c7.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d917468.js",
+    "static/js/2.c320ab5c.chunk.js",
+    "static/css/main.2dfe2395.chunk.css",
+    "static/js/main.f4781563.chunk.js"
+  ]
+}
